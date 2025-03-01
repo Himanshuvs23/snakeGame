@@ -41,21 +41,27 @@
     grid-template-rows: repeat(18,1fr);
 }
 .tail{
-    background-color: rgb(255, 0, 0);
-    border: 2px solid rgb(34, 4, 34); 
-    transform: scale(1.02);
-    border-radius: 9px;
+    background: radial-gradient(rgb(18, 61, 1),#2dfb25);
+    border: 1px solid rgb(34, 4, 34); 
+    border-radius: 10px 10px 8px 8px ;
 }
 .head{
-    background-color: red;
-    border: 2px solid rgb(34, 4, 34); 
-    transform: scale(1.02);
-    border-radius: 9px;
+    background: linear-gradient(rgb(3, 63, 3) , green);
+    border-radius: 10px ;
 }
 .food{
-    background-color: rgb(162, 0, 255);
-    border: 2px solid rgb(34, 4, 34); 
-    transform: scale(1.02);
-    border-radius: 9px;
+
+ background-size: 23px 23px;
+ background-repeat: no-repeat;
+    background-image: url('./public/food2.png');
+
+
+}
+#end{ 
+    font-size: xx-large;
+    position: absolute;
+    top: 150px;  
+    right:200px;
+     color:black;
 
 }
